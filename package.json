@@ -2,7 +2,7 @@
 	"name": "shipit-composer-simple",
 	"description": "Composer tasks for Shipit",
 	"license": "GPL-3.0",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"repository": "https://github.com/Rudloff/shipit-composer-simple.git",
 	"dependencies": {
 		"shipit-utils": "~1.4.0",
