@@ -4,7 +4,7 @@ var utils = require('shipit-utils');
 var chalk = require('chalk');
 
 module.exports = function (gruntOrShipit) {
-    utils.registerTask(gruntOrShipit, 'composer:cmd', function () {
+    utils.registerTask(gruntOrShipit, 'composer:cmd', 'Run a custom Composer command on the remote host', function () {
         var shipit = utils.getShipit(gruntOrShipit);
 
         function cmd() {

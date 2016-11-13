@@ -4,7 +4,7 @@ var utils = require('shipit-utils');
 var chalk = require('chalk');
 
 module.exports = function (gruntOrShipit) {
-    utils.registerTask(gruntOrShipit, 'composer:install', function () {
+    utils.registerTask(gruntOrShipit, 'composer:install', 'Run composer install on the remote host', function () {
         var shipit = utils.getShipit(gruntOrShipit);
 
         function install() {
